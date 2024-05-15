@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 30px; /* Mărirea textului pentru întregul corp */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    background: #444;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 20px; /* Mărirea textului din meniul de navigare */
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center; /* Centrarea textului și a conținutului */
+}
+
+section h2 {
+    font-size: 30 px; /* Mărirea textului pentru titlurile secțiunilor */
+}
+
+section p {
+    font-size: 28px; /* Mărirea textului pentru paragrafe */
+}
+
+section img {
+    width: 20%; /* Redimensionează imaginea la 50% din lățimea containerului */
+    height: auto;
+   border-radius: 5px;
+   margin-bottom: 1rem;
+   display: inline-block /* Asigură că imaginile sunt afișate pe aceeași linie */
+   margin-right: 10px; /* Spațiu între imaginile lângă ele */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 16px; /* Mărirea textului din footer */
+}
